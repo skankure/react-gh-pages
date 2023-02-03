@@ -24,33 +24,23 @@ function App() {
   return (<>
     <>
   
-    <Router>
+  
     <Header/>
-      <div>
+      
+ 
 
 
   
 
       
       <Routes>
-          <Route exact path="/" element={<Main/>}/>
-
-          <Route exact path="/react-gh-pages" element={<Main/>}/>
-
-          <Route exact path="http://www.supriyakankure.com/react-gh-pages/" element={<Main/>}/>
-
-     
-          <Route exact path="http://www.supriyakankure.com/privacy-policy" element={<Privacy/>}/>
-
-          <Route exact path="http://www.supriyakankure.com/terms" element={<Terms/>}/>
-     
-          <Route exact path="/terms" element={<Terms/>}/>
-          <Route exact path="/privacy-policy" element={<Privacy/>}/>
-          <Route exact path="/dashboard" element={<Dashboard/>}/>
+      <Route path="/" element={<Main />} />
+    <Route path="/terms" element={<Terms />} />
+    <Route path="/privacy" element={<Privacy />} />
         </Routes>
-      </div>
+      
       <Footer/> 
-    </Router>
+    
    
 
 
@@ -59,31 +49,6 @@ function App() {
   );
 }
 
-// You can think of these components as "pages"
-// in your app.
 
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function Me() {
-  return (
-    <div>
-      <h2>Me</h2>
-    </div>
-  );
-}
-
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
-    </div>
-  );
-}
 
 export default App;

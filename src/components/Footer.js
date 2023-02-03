@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import { Link } from "react-router-dom";
 
 function SocialMediaIcons(){
     return<ul className="social-media-links list-unstyled justify-content-center d-flex">
@@ -15,10 +16,15 @@ function FooterLinks(){
   return <div className = 'footer-links d-flex justify-content-center'>
     <ul className="footer-links list-inline text-center footer-font">
          <li className="list-inline-item resources-links"><a>Contact</a></li>
-         <li className="list-inline-item resources-links footer-anchor-links"><a href="/privacy-policy">Privacy Policy</a></li>
-         <li className="list-inline-item resources-links footer-anchor-links"><a href="/terms">Terms of Use</a></li>
-      
+    {/*      <li className="list-inline-item resources-links footer-anchor-links"><a href="/privacy-policy">Privacy Policy</a></li>
+         <li className="list-inline-item resources-links footer-anchor-links"><a href="/terms">Terms of Use</a></li> */}
+
+         <li className="list-inline-item resources-links footer-anchor-links"> <Link to="/privacy" className="list-inline-item resources-links footer-anchor-links"> Privacy Policy</Link></li>
+
+         <li className="list-inline-item resources-links footer-anchor-links"> <Link to="/terms" className="list-inline-item resources-links footer-anchor-links"> Terms of Use</Link></li>
+
     </ul>
+  
   </div>
 }
 
