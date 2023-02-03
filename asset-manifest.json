@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.898df045.css",
-    "main.js": "/react-gh-pages/static/js/main.3c273446.js",
+    "main.js": "/react-gh-pages/static/js/main.84b9f264.js",
     "static/js/787.303871ee.chunk.js": "/react-gh-pages/static/js/787.303871ee.chunk.js",
     "static/media/hero.svg": "/react-gh-pages/static/media/hero.12149168b920f5a0f3bcb96ba88d3be1.svg",
     "static/media/sitting-couple.svg": "/react-gh-pages/static/media/sitting-couple.e20745ac02f54a54c5131b8f662a7b03.svg",
@@ -9,11 +9,11 @@
     "static/media/swipe.svg": "/react-gh-pages/static/media/swipe.f70b4b93510a33c4409c977bd7b50712.svg",
     "index.html": "/react-gh-pages/index.html",
     "main.898df045.css.map": "/react-gh-pages/static/css/main.898df045.css.map",
-    "main.3c273446.js.map": "/react-gh-pages/static/js/main.3c273446.js.map",
+    "main.84b9f264.js.map": "/react-gh-pages/static/js/main.84b9f264.js.map",
     "787.303871ee.chunk.js.map": "/react-gh-pages/static/js/787.303871ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.898df045.css",
-    "static/js/main.3c273446.js"
+    "static/js/main.84b9f264.js"
   ]
 }
