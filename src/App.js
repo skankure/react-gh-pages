@@ -35,6 +35,7 @@ function App() {
       
       <Routes>
       <Route path="/" element={<Main />} />
+      <Route path="/#" element={<Main />} />
     <Route path="/terms" element={<Terms />} />
     <Route path="/privacy" element={<Privacy />} />
         </Routes>
