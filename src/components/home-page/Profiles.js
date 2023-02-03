@@ -3,21 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Image from "react-bootstrap/Image";
 import url from '../images/swipe.svg';
 
+import Heading from '../utilities/Heading';
+import Description from '../utilities/Description';
+import Picture from '../utilities/Picture';
 
-function Heading() {
-  return <h1 className="py-4 section-header">Free Profile Reviews</h1>
-}
-
-function Description() {
-  return <p> Send us your profiles and we will give you a comprehensive review at no cost to you.</p>
-}
-
-function Picture(props) {
-  return <Image src={props.url} className='w-100' />
-}
+const heading = 'Free Profile Reviews';
+const description = 'Send us your profiles and we will give you a comprehensive review at no cost to you.';
 
 function Btn() {
   return <Button variant="outline-light">Send Now</Button>
@@ -31,8 +24,8 @@ const Profiles = () => {
           <Picture url={url} />
         </Col>
         <Col xs={12} md={6} className='px-3'>
-          <Heading />
-          <Description />
+          <Heading heading ={heading} />
+          <Description description={description} />
           <Btn />
         </Col>
       </Row>
