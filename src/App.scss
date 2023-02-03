@@ -38,9 +38,10 @@ li,
   font-family: $main-font-family;
 }
 
-.navbar-brand {
+.navbar-brand > a {
   font-family: $logo-font-family;
   color: $black !important;
+  text-decoration: none;
 }
 
 .nav-link {
