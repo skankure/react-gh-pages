@@ -9,7 +9,6 @@ const name = 'Supriya Kankure';
 const title = 'CEO of Jalebi Jodi';
 
 
-
 function Heading() {
   return <h1 className="py-4 section-header">Why Us</h1>
 }

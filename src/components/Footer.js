@@ -15,8 +15,9 @@ function FooterLinks(){
   return <div className = 'footer-links d-flex justify-content-center'>
     <ul className="footer-links list-inline text-center footer-font">
          <li className="list-inline-item resources-links"><a>Contact</a></li>
-         <li className="list-inline-item resources-links footer-anchor-links"><a href="privacy-policy.html">Privacy Policy</a></li>
-         <li className="list-inline-item resources-links footer-anchor-links"><a href="terms.html">Terms of Use</a></li>
+         <li className="list-inline-item resources-links footer-anchor-links"><a href="/privacy-policy">Privacy Policy</a></li>
+         <li className="list-inline-item resources-links footer-anchor-links"><a href="/terms">Terms of Use</a></li>
+      
     </ul>
   </div>
 }

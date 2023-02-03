@@ -8,7 +8,7 @@ const Header = () => {
     <Container className='g-0 box-shadow'> 
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
     <Container>
-      <Navbar.Brand href="#home">Jalebi Jodi</Navbar.Brand>
+      <Navbar.Brand href="/">Jalebi Jodi</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
         <Nav className=''>
