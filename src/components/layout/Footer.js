@@ -16,15 +16,9 @@ function FooterLinks(){
   return <div className = 'footer-links d-flex justify-content-center'>
     <ul className="footer-links list-inline text-center footer-font">
          <li className="list-inline-item resources-links"><a>Contact</a></li>
-    {/*      <li className="list-inline-item resources-links footer-anchor-links"><a href="/privacy-policy">Privacy Policy</a></li>
-         <li className="list-inline-item resources-links footer-anchor-links"><a href="/terms">Terms of Use</a></li> */}
-
          <li className="list-inline-item resources-links footer-anchor-links"> <Link to="/privacy" className="list-inline-item resources-links footer-anchor-links"> Privacy Policy</Link></li>
-
          <li className="list-inline-item resources-links footer-anchor-links"> <Link to="/terms" className="list-inline-item resources-links footer-anchor-links"> Terms of Use</Link></li>
-
     </ul>
-  
   </div>
 }
 
@@ -34,7 +28,7 @@ function CopyRight(){
 
 const Footer = () => {
   return (
-    <Container className='footer-container box-shadow'>
+    <Container className='footer-container'>
       <Row className="pt-5 px-5 g-0">
       <SocialMediaIcons></SocialMediaIcons>
       <FooterLinks></FooterLinks>

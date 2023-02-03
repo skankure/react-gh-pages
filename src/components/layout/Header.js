@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Container className='g-0 box-shadow'> 
+    <Container className='g-0'> 
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
     <Container>
       <Navbar.Brand>

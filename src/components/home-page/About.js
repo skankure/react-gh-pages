@@ -3,7 +3,7 @@ import Image from "react-bootstrap/Image";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import url from './sitting-couple.svg';
+import url from '../images/sitting-couple.svg';
 
 const name = 'Supriya Kankure';
 const title = 'CEO of Jalebi Jodi';
@@ -36,7 +36,7 @@ function Cite(props) {
 
 const About = () => {
   return (
-    <Container className='g-0 p-5 about box-shadow'>
+    <Container className='g-0 p-5 about'>
       <Row data-aos="fade-up" className='g-0 py-5'>
         <Col xs={12} md={6} className='px-3'>
           <Heading />

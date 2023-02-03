@@ -31,6 +31,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.application {
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
 p,
 a,
 li,
@@ -50,6 +54,10 @@ li,
   &:hover {
     text-decoration: underline;
   }
+}
+
+.bg-light {
+  background-color: $white !important;
 }
 
 @mixin main {
@@ -109,10 +117,6 @@ li,
   );
 }
 
-.terms {
-
-}
-
 .consulting {
   @include main;
   background: $navy-blue;
@@ -163,10 +167,6 @@ li,
   .footer-container {
     text-align: center;
   }
-}
-
-.box-shadow {
-  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 .section-header {

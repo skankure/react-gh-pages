@@ -1,20 +1,18 @@
 import React from 'react';
-import Image from "react-bootstrap/Image";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import url from './wedding.svg';
-
+import Image from "react-bootstrap/Image";
+import url from '../images/swipe.svg';
 
 
 function Heading() {
-  return <h1 className="py-4 section-header">1:1 Consulting</h1>
+  return <h1 className="py-4 section-header">Free Profile Reviews</h1>
 }
 
 function Description() {
-  return <p>Navigating real-life scenarios, dating apps, and matrimony apps can be overwhelming, but with our expert consulting, we can help you navigate your situation effectively and be one step closer to your perfect match.
-  </p>
+  return <p> Send us your profiles and we will give you a comprehensive review at no cost to you.</p>
 }
 
 function Picture(props) {
@@ -22,13 +20,13 @@ function Picture(props) {
 }
 
 function Btn() {
-  return <Button variant="outline-light">Book Now</Button>
+  return <Button variant="outline-light">Send Now</Button>
 }
 
-const Consulting = () => {
+const Profiles = () => {
   return (
-    <Container className='g-0 consulting p-5 box-shadow'>
-      <Row data-aos="fade-up" className='g-0 py-5'>
+    <Container className='g-0 profile p-5 box-shadow'>
+      <Row data-aos="fade-up" className="g-0 py-5">
         <Col xs={12} md={6} className='px-3'>
           <Picture url={url} />
         </Col>
@@ -42,4 +40,7 @@ const Consulting = () => {
   )
 }
 
-export default Consulting;
+export default Profiles;
+
+
+
