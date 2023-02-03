@@ -37,6 +37,12 @@ function App() {
 
           <Route exact path="/react-gh-pages" element={<Main/>}/>
 
+          <Route exact path="http://www.supriyakankure.com/react-gh-pages/" element={<Main/>}/>
+
+     
+          <Route exact path="http://www.supriyakankure.com/privacy-policy" element={<Privacy/>}/>
+
+          <Route exact path="http://www.supriyakankure.com/terms" element={<Terms/>}/>
      
           <Route exact path="/terms" element={<Terms/>}/>
           <Route exact path="/privacy-policy" element={<Privacy/>}/>
