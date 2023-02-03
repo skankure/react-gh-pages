@@ -34,6 +34,10 @@ function App() {
       
       <Routes>
           <Route exact path="/" element={<Main/>}/>
+
+          <Route exact path="/react-gh-pages" element={<Main/>}/>
+
+     
           <Route exact path="/terms" element={<Terms/>}/>
           <Route exact path="/privacy-policy" element={<Privacy/>}/>
           <Route exact path="/dashboard" element={<Dashboard/>}/>
