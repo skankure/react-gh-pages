@@ -10,19 +10,27 @@ function Heading() {
   return <h1 className=" py-4 hero-header section-header">Ready for Love?</h1>
 }
 
+function handleClick() {
+  window.scrollTo({
+    top:document.getElementById('profiles').offsetTop,
+    behavior:"smooth"
+});
+}
+
 function Btn() {
-  return <Button variant="outline-light">Learn More</Button>
+  return <Button variant="outline-light" onClick={handleClick}>Learn More</Button>
 }
 
 function Picture(props) {
   return <Image src={props.url} className='w-100' />
 }
 
+
 const Hero = () => {
   return (
     <Container className="hero g-0">
-      <Row className=' hero-section-container g-0'>
-        <Col xs={12} xl={6} className='px-3' data-aos="fade-up">
+      <Row data-aos="fade-down" className=' hero-section-container g-0'>
+        <Col xs={12} xl={6} className='px-3'>
           <Heading />
           <Btn />
         </Col>

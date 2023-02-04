@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 function SocialMediaIcons(){
     return<ul className="social-media-links list-unstyled justify-content-center d-flex">
-          <li><i className="bi bi-twitter social-media-icon"/></li>
-          <li><i className="bi bi-instagram social-media-icon"/></li> 
-          <li><i className="bi bi-facebook social-media-icon"/></li>
-          <li><a className="" href="mailto:info@jalebijodi.com"> <i className="bi bi-envelope social-media-icon" /></a></li>
+          <li><a href="https://twitter.com/jalebi_jodi" target='blank'> <i className="bi bi-twitter social-media-icon" /></a></li>
+          <li><a href="https://www.instagram.com/jalebi_jodi/" target='blank'> <i className="bi bi-instagram social-media-icon" /></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100090281280553" target='blank'> <i className="bi bi-facebook social-media-icon" /></a></li>
+          <li><a href="mailto:info@jalebijodi.com"> <i className="bi bi-envelope social-media-icon" /></a></li>
           </ul>
 }
 
 function FooterLinks(){
   return <div className = 'footer-links d-flex justify-content-center'>
     <ul className="footer-links list-inline text-center footer-font">
-         <li className="list-inline-item resources-links"><a>Contact</a></li>
+         <li className="list-inline-item resources-links"><a href="mailto:info@jalebijodi.com">info@jalebijodi.com</a></li>
          <li className="list-inline-item resources-links footer-anchor-links"> <Link to="/privacy" className="list-inline-item resources-links footer-anchor-links"> Privacy Policy</Link></li>
          <li className="list-inline-item resources-links footer-anchor-links"> <Link to="/terms" className="list-inline-item resources-links footer-anchor-links"> Terms of Use</Link></li>
     </ul>

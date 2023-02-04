@@ -12,13 +12,14 @@ import Picture from '../utilities/Picture';
 const heading = 'Free Profile Reviews';
 const description = 'Send us your profiles and we will give you a comprehensive review at no cost to you.';
 
+
 function Btn() {
   return <Button variant="outline-light">Send Now</Button>
 }
 
 const Profiles = () => {
   return (
-    <Container className='g-0 profile p-5 box-shadow'>
+    <Container id='profiles' className='g-0 profile p-5 box-shadow'>
       <Row data-aos="fade-up" className="g-0 py-5">
         <Col xs={12} md={6} className='px-3'>
           <Picture url={url} />
