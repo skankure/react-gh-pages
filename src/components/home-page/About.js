@@ -9,9 +9,9 @@ import Picture from '../utilities/Picture';
 import Caption from '../utilities/Caption'
 
 const name = 'Supriya Kankure';
-const title = 'CEO of Jalebi Jodi';
+const title = 'Founder, Jalebi Jodi';
 const heading = 'Why Us';
-const description = 'As someone who has personally struggled with dating apps, matrimonial sites, and speed dating events, I understand the difficulties offinding a romantic partner. That\'s why I founded Jalebi Jodi, a consulting service to help others navigate the dating process. Our services are open to all individuals regardless of background. We strive to provide the highest quality for our clients while being affordable.';
+const description = 'As someone who has personally struggled with dating apps, matrimonial sites, and speed dating events, I understand the difficulties off finding a romantic partner. That\'s why I founded Jalebi Jodi, a consulting service to help others navigate the dating process. Our services are completely free and open to all individuals regardless of background.';
 
 const About = () => {
   return (

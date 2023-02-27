@@ -13,7 +13,7 @@ const heading = '1:1 Consulting';
 const description = 'Navigating real-life scenarios, dating apps, and matrimony apps can be overwhelming, but with our expert consulting, we can help you navigate your situation effectively and be one step closer to your perfect match.';
 
 function Btn() {
-  return <Button variant="outline-light">Book Now</Button>
+  return <Button variant="outline-light">Request Now</Button>
 }
 
 const Consulting = () => {
