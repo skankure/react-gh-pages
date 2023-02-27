@@ -12,8 +12,12 @@ import Picture from '../utilities/Picture';
 const heading = '1:1 Consulting';
 const description = 'Navigating real-life scenarios, dating apps, and matrimony apps can be overwhelming, but with our expert consulting, we can help you navigate your situation effectively and be one step closer to your perfect match.';
 
+function OnClick() {
+  window.open('https://docs.google.com/forms/d/e/1FAIpQLSfqw0e4ac4TUOlOTYSISGGlhxS6R_6oftoksDLqERwNnwpIhA/viewform', "_blank");
+}
+
 function Btn() {
-  return <Button variant="outline-light">Request Now</Button>
+  return <Button variant="outline-light" onClick={OnClick}>Request Now</Button>
 }
 
 const Consulting = () => {

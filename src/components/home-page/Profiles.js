@@ -13,8 +13,12 @@ const heading = 'Free Profile Reviews';
 const description = 'Send us your profiles and we will give you a comprehensive review at no cost to you.';
 
 
+function OnClick() {
+  window.open('https://docs.google.com/forms/d/e/1FAIpQLScXQpizY_7U1NdC4YDMWxCM6sPkmRTMBea2u50khCdEBjTQUQ/viewform', "_blank");
+}
+
 function Btn() {
-  return <Button variant="outline-light">Send Now</Button>
+  return <Button variant="outline-light" onClick={OnClick} >Send Now</Button>
 }
 
 const Profiles = () => {
