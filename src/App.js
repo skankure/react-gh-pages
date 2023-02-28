@@ -23,7 +23,7 @@ function App() {
       <Container className=" g-0 application">
       <Header />
         <Routes>
-          <Route path="/react-gh-pages" element={<Home />} />
+          <Route path="/jalebi-jodi" element={<Home />} />
           <Route path="/#" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/terms" element={<Terms />} />
